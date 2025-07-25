@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-ar="WindGroup" data-en="WindGroup">WindGroup</title>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/icon" href="imgg/Picture1.png">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo-container">
+      <img src="imgg/logoco.png" alt="WindGroup" class="logo">
+      <span class="navbar-title" data-ar="WindGroup" data-en="WindGroup">WindGroup</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home"><i class="fas fa-home"></i> <span data-ar="الرئيسية" data-en="Home">الرئيسية</span></a></li>
+      <li><a href="#companies" class="smooth-scroll"><i class="fas fa-tag"></i> <span data-ar="شركاتنا" data-en="Companies">شركاتنا</span></a></li>
+      <li><a href="Contactus/Contact.html" target="_blank"><i class="fas fa-phone"></i> <span data-ar="اتصل بنا" data-en="Contact Us">اتصل بنا</span></a></li>
+      <li>
+        <button class="lang-toggle" onclick="toggleLanguage()">AR/EN</button>
+      </li>
+    </ul>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+      <img src="imgg/c2302268-541e-4b81-89ae-453f8b10ab6a-removebg-preview.png" alt="Company Logo" class="company-logo-hero">
+      <h1 class="main-title" data-ar="WindGroup" data-en="WindGroup">WindGroup</h1>
+      <p class="typing-effect" data-ar="مرحبا ويند جروب" data-en="welcome windGroup" data-aos="fade-up" data-aos-delay="200">مرحبا ويند جروب</p>
+      <a href="#about" class="reserve-btn smooth-scroll" data-ar="المزيد عن WindGroup" data-en="More About WindGroup" data-aos="fade-up" data-aos-delay="400">المزيد عن WindGroup</a>
+    </div>
+  </section>
+
+  <!-- Companies Section -->
+  <section class="companies-section" id="companies" data-aos="fade-up">
+    <h2 class="companies-title" data-ar="شركاتنا" data-en="Our Companies">شركاتنا</h2>
+    <div class="companies-container">
+      <div class="company-main" data-aos="fade-up" data-aos-delay="100">
+        <a href="#" class="company-link">
+          <div class="company-circle">
+            <img src="imgg/c2302268-541e-4b81-89ae-453f8b10ab6a-removebg-preview.png" alt="WindGroup" class="company-logo">
+          </div>
+          <h3 data-ar="WindGroup" data-en="WindGroup">WindGroup</h3>
+          <p data-ar="الشركة الأم التي تجمع الإبداع والجودة في كل فروعها" data-en="The parent company uniting creativity and quality across all branches">الشركة الأم التي تجمع الإبداع والجودة في كل فروعها</p>
+        </a>
+      </div>
+      <div class="company-branches" data-aos="fade-up" data-aos-delay="200">
+        <div class="company-item">
+          <a href="Arabian/Arabian.html" class="company-link" target="_blank">
+            <div class="company-circle">
+              <img src="imgg/arab.png" alt="الشركة العربية المتخصصة لخدمات النفط" class="company-logo">
+            </div>
+            <h4 data-ar="الشركة العربية المتخصصة لخدمات النفط" data-en="Arabian Specialized Oil Services Company">الشركة العربية المتخصصة لخدمات النفط</h4>
+          </a>
+        </div>
+        <div class="company-item">
+          <a href="ModernShorouk/Modern.html" class="company-link" target="_blank">
+            <div class="company-circle">
+              <img src="imgg/cropped_circle_image.png" alt="مستشفى مودرن الشروق العالمي" class="company-logo">
+            </div>
+            <h4 data-ar="مستشفى مودرن الشروق العالمي" data-en="Modern Shorouk International Hospital">مستشفى مودرن الشروق العالمي</h4>
+          </a>
+        </div>
+        <div class="company-item">
+          <a href="BeverlyHills/BeverlyHills.html" class="company-link" target="_blank">
+            <div class="company-circle">
+              <img src="imgg/p44.png" alt="شركة بيفرلي هيلز" class="company-logo">
+            </div>
+            <h4 data-ar="شركة بيڤري هيلز للانشاءات " data-en="Beverly Hills Construction Company">شركة بيڤري هيلز للانشاءات </h4>
+          </a>
+        </div>
+        <div class="company-item">
+          <a href="ArabianIndustriet/ArabianIndustrial.html" class="company-link" target="_blank">
+            <div class="company-circle">
+              <img src="imgg/ren.png" alt="الشركة العربية للتنمية الصناعية" class="company-logo">
+            </div>
+            <h4 data-ar="الشركة العربية للتنمية الصناعية" data-en="Arabian Industrial Development Company">الشركة العربية للتنمية الصناعية</h4>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="about-container">
+      <div class="about-image" data-aos="zoom-in" data-aos-duration="800">
+        <div class="image-overlay">
+          <img src="imgg/abou2t.jpg" alt="WindGroup" class="about-logo">
+          <div class="about-text-overlay" data-aos="fade-right" data-aos-delay="200" data-aos-duration="800">
+            <h2 data-ar="عن WindGroup" data-en="About WindGroup">عن WindGroup</h2>
+            <p data-ar="تأسست شركة ويند جروب عام 2010 على يد المهندس ياسر السمادوني، لتصبح رائدة في تقديم الحلول المتكاملة في مجالات خدمات السيارات، الإنشاءات، الاستثمار العقاري، والاستشارات الهندسية. منذ انطلاقتها، تسعى ويند جروب لتحقيق التميز من خلال رؤية مستقبلية تجمع بين الابتكار وأعلى معايير الجودة، مستندة إلى فريق من المحترفين وأحدث التقنيات." data-en="Founded in 2010 by Engineer Yasser Al-Samadoni, Wind Group has become a leader in providing integrated solutions in automotive services, construction, real estate investment, and engineering consulting. Since its inception, Wind Group has pursued excellence through a forward-looking vision combining innovation and the highest quality standards, supported by a team of professionals and cutting-edge technologies.">
+              تأسست شركة ويند جروب عام 2010 على يد المهندس ياسر السمادوني، لتصبح رائدة في تقديم الحلول المتكاملة في مجالات خدمات السيارات، الإنشاءات، الاستثمار العقاري، والاستشارات الهندسية. منذ انطلاقتها، تسعى ويند جروب لتحقيق التميز من خلال رؤية مستقبلية تجمع بين الابتكار وأعلى معايير الجودة، مستندة إلى فريق من المحترفين وأحدث التقنيات.
+            </p>
+            <a href="#fields" class="about-btn smooth-scroll" data-ar="استكشف" data-en="Explore" data-aos="fade-up" data-aos-delay="400">استكشف</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Fields Section -->
+    <section class="fields-section" id="fields">
+      <h2 class="fields-title" data-ar="مجالاتنا" data-en="Our Fields">مجالاتنا</h2>
+      
+      <!-- Medical Services -->
+      <section class="field-section" data-aos="fade-up" data-aos-duration="600">
+        <div class="field-content">
+          <div class="field-images">
+            <img src="imgg/hel3.jpg" alt="صورة مشروع ميديكال بوينت" class="field-image main-image" loading="lazy" onclick="showImage(this.src, this.alt)">
+            <div class="field-sub-images">
+              <img src="imgg/hel1.png" alt="صورة مستشفى مودرن الشروق" class="field-image sub-image" loading="lazy" onclick="showImage(this.src, this.alt)">
+              <img src="imgg/yy.jpg" alt="صورة مستشفى مودرن الشروق" class="field-image sub-image" loading="lazy" onclick="showImage(this.src, this.alt)">
+              <img src="imgg/yy2.jpg" alt="صورة مستشفى مودرن الشروق" class="field-image sub-image" loading="lazy" onclick="showImage(this.src, this.alt)">
+            </div>
+          </div>
+          <div class="field-text">
+            <div class="field-icon-wrapper">
+              <i class="fas fa-hospital field-icon"></i>
+            </div>
+            <h3 data-ar="الخدمات الطبية" data-en="Medical Services">الخدمات الطبية</h3>
+            <p class="field-description" data-ar="نقدم حلولاً طبية متكاملة تشمل إنشاء وتجهيز مستشفيات وعيادات بأحدث التقنيات، مع التركيز على توفير بيئات صحية مبتكرة تدعم الرعاية الطبية المتميزة." data-en="We provide comprehensive medical solutions, including the construction and equipping of hospitals and clinics with cutting-edge technology, focusing on creating innovative healthcare environments.">نقدم حلولاً طبية متكاملة تشمل إنشاء وتجهيز مستشفيات وعيادات بأحدث التقنيات، مع التركيز على توفير بيئات صحية مبتكرة تدعم الرعاية الطبية المتميزة.</p>
+            <div class="field-projects">
+              <p data-ar="نفذت الشركة إنشاء عدد من المستشفيات والمراكز الطبية بأعلى معايير الجودة:" data-en="The company has implemented the construction of several hospitals and medical centers with the highest quality standards:">نفذت الشركة إنشاء عدد من المستشفيات والمراكز الطبية بأعلى معايير الجودة:</p>
+              <ul>
+                <li data-ar="ميديكال بوينت - الشروق" data-en="Medical Point - Shorouk">ميديكال بوينت - الشروق</li>
+                <li data-ar="مستشفى مودرن الشروق - الشروق" data-en="Modern Shorouk Hospital - Shorouk">مستشفى مودرن الشروق - الشروق</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Commercial Malls -->
+      <section class="field-section">
+        <div class="field-content">
+          <div class="field-images">
+            <img src="imgg/mol1.jpg" alt="صورة مول بوليفار" class="field-image main-image" loading="lazy" onclick="showImage(this.src, this.alt)">
+            <div class="field-sub-images">
+              <img src="imgg/mol2.jpg" alt="صورة مول الشروق" class="field-image sub-image" loading="lazy" onclick="showImage(this.src, this.alt)">
+              <img src="imgg/mall2.jpg" alt="صورة مول الشروق" class="field-image sub-image" loading="lazy" onclick="showImage(this.src, this.alt)">
+              <img src="imgg/mall.jpg" alt="صورة مول الشروق" class="field-image sub-image" loading="lazy" onclick="showImage(this.src, this.alt)">
+            </div>
+          </div>
+          <div class="field-text">
+            <div class="field-icon-wrapper">
+              <i class="fas fa-shopping-cart field-icon"></i>
+            </div>
+            <h3 data-ar="المولات التجارية" data-en="Commercial Malls">المولات التجارية</h3>
+            <p class="field-description" data-ar="نصمم وننفذ مولات تجارية ومراكز تسوق متطورة تجمع بين الفخامة والوظائفية، مع توفير تجارب تسوق استثنائية تجذب العملاء." data-en="We design and execute advanced commercial malls and shopping centers that combine luxury and functionality, providing exceptional shopping experiences.">نصمم وننفذ مولات تجارية ومراكز تسوق متطورة تجمع بين الفخامة والوظائفية، مع توفير تجارب تسوق استثنائية تجذب العملاء.</p>
+            <div class="field-projects">
+              <ul>
+                <li data-ar="مول بوليفار - الشروق" data-en="Boulevard Mall - Shorouk">مول بوليفار - الشروق</li>
+                <li data-ar="مول الشروق - الشروق" data-en="Shorouk Mall - Shorouk">مول الشروق - الشروق</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Oil Services -->
+      <section class="field-section">
+        <div class="field-content">
+          <div class="field-images">
+            <img src="imgg/nf1.jpg" alt="صورة محطة توتال" class="field-image main-image" loading="lazy" onclick="showImage(this.src, this.alt)">
+            <div class="field-sub-images">
+              <img src="imgg/nf2.png" alt="صورة محطة أدنوك" class="field-image sub-image" loading="lazy" onclick="showImage(this.src, this.alt)">
+              <img src="imgg/nf4.png" alt="صورة محطة أولي انرجي" class="field-image sub-image" loading="lazy" onclick="showImage(this.src, this.alt)">
+              <img src="imgg/ola.jpg" alt="صورة محطة أولي انرجي" class="field-image sub-image" loading="lazy" onclick="showImage(this.src, this.alt)">
+            </div>
+          </div>
+          <div class="field-text">
+            <div class="field-icon-wrapper">
+              <i class="fas fa-gas-pump field-icon"></i>
+            </div>
+            <h3 data-ar="خدمات النفط" data-en="Oil Services">خدمات النفط</h3>
+            <p class="field-description" data-ar="نقدم حلولاً رائدة في قطاع النفط تشمل إنشاء وإدارة محطات الوقود ومراكز خدمة السيارات بأحدث التقنيات، بالإضافة إلى توريد الزيوت والشحومات عالية الجودة." data-en="We offer pioneering solutions in the oil sector, including the construction and management of fuel stations and car service centers with cutting-edge technology, in addition to supplying high-quality oils and lubricants.">نقدم حلولاً رائدة في قطاع النفط تشمل إنشاء وإدارة محطات الوقود ومراكز خدمة السيارات بأحدث التقنيات، بالإضافة إلى توريد الزيوت والشحومات عالية الجودة.</p>
+            <div class="field-projects">
+              <p data-ar="نفذت الشركة إنشاء عدد من محطات الوقود بمعايير عالمية:" data-en="The company has implemented the construction of several fuel stations with global standards:">نفذت الشركة إنشاء عدد من محطات الوقود بمعايير عالمية:</p>
+              <ul>
+                <li data-ar="محطة توتال - الجبل الأصفر - العاشر من رمضان - سريقوس" data-en="Total Station - Yellow Mountain - 10th of Ramadan - Sereequs">محطة توتال - الجبل الأصفر - العاشر من رمضان - سريقوس</li>
+                <li data-ar="محطة أدنوك - العبور" data-en="Adnoc Station - Obour">محطة أدنوك - العبور</li>
+                <li data-ar="محطة أني - الأسكندرية - الكيلو 38 الصحراوي" data-en="Eni Station - Alexandria - Km 38 Desert Road">محطة أني - الأسكندرية - الكيلو 38 الصحراوي</li>
+                <li data-ar="محطة أولي انرجي - الماكس / الأسكندرية" data-en="Oli Energy Station - Maax / Alexandria">محطة أولي انرجي - الماكس / الأسكندرية</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Construction & Contracting -->
+      <section class="field-section">
+        <div class="field-content">
+          <div class="field-images">
+            <img src="imgg/mk1.jpg" alt="صورة فيلات القاهرة الجديدة" class="field-image main-image" loading="lazy" onclick="showImage(this.src, this.alt)">
+            <div class="field-sub-images">
+              <img src="imgg/ryan-parker-ucnZANGmyxM-unsplash.jpg" alt="صورة تشطيبات الشروق" class="field-image sub-image" loading="lazy" onclick="showImage(this.src, this.alt)">
+              <img src="imgg/k1.jpg" alt="صورة تشطيبات الشروق" class="field-image sub-image" loading="lazy" onclick="showImage(this.src, this.alt)">
+              <img src="imgg/k2.jpg" alt="صورة تشطيبات الشروق" class="field-image sub-image" loading="lazy" onclick="showImage(this.src, this.alt)">
+            </div>
+          </div>
+          <div class="field-text">
+            <div class="field-icon-wrapper">
+              <i class="fas fa-building field-icon"></i>
+            </div>
+            <h3 data-ar="الإنشاءات والمقاولات" data-en="Construction & Contracting">الإنشاءات والمقاولات</h3>
+            <p class="field-description" data-ar="نقدم خدمات إنشائية شاملة تشمل تصميم وبناء مشاريع سكنية وتجارية ووطنية بأعلى مستويات الدقة والإبداع." data-en="We provide comprehensive construction services, including the design and construction of residential, commercial, and national projects with the highest levels of precision and creativity.">نقدم خدمات إنشائية شاملة تشمل تصميم وبناء مشاريع سكنية وتجارية ووطنية بأعلى مستويات الدقة والإبداع.</p>
+            <div class="field-projects">
+              <ul>
+                <li data-ar="فيلات سكنية فاخرة - القاهرة الجديدة" data-en="Luxury Villas - New Cairo">فيلات سكنية فاخرة - القاهرة الجديدة</li>
+                <li data-ar="تشطيبات مباني إدارية - الشروق" data-en="Finishing of Administrative Buildings - Shorouk">تشطيبات مباني إدارية - الشروق</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+
+    <section class="features-section" id="features" data-aos="fade-up" data-aos-duration="800">
+  <h2 data-ar="مميزاتنا" data-en="Our Features">مميزاتنا</h2>
+  <div class="features-grid">
+    <div class="feature-item" data-aos="zoom-in" data-aos-delay="100">
+      <i class="fas fa-trophy fa-3x"></i>
+      <h4 data-ar="الريادة والتميز" data-en="Leadership & Excellence">الريادة والتميز</h4>
+      <p data-ar="نحرص على تقديم خدمات مبتكرة بأعلى معايير الجودة، مما يجعلنا روادًا في السوق المصري والإقليمي." data-en="We strive to deliver innovative services with the highest quality standards, positioning us as leaders in the Egyptian and regional markets.">
+        نحرص على تقديم خدمات مبتكرة بأعلى معايير الجودة، مما يجعلنا روادًا في السوق المصري والإقليمي.
+      </p>
+    </div>
+    <div class="feature-item" data-aos="zoom-in" data-aos-delay="200">
+      <i class="fas fa-rocket fa-3x"></i>
+      <h4 data-ar="التطوير المستمر" data-en="Continuous Development">التطوير المستمر</h4>
+      <p data-ar="نستثمر في التكنولوجيا الحديثة وتطوير العمليات لضمان تقديم حلول متطورة تلبي احتياجات العملاء." data-en="We invest in modern technology and process development to ensure advanced solutions that meet client needs.">
+        نستثمر في التكنولوجيا الحديثة وتطوير العمليات لضمان تقديم حلول متطورة تلبي احتياجات العملاء.
+      </p>
+    </div>
+    <div class="feature-item" data-aos="zoom-in" data-aos-delay="300">
+      <i class="fas fa-globe fa-3x"></i>
+      <h4 data-ar="الاستدامة البيئية" data-en="Environmental Sustainability">الاستدامة البيئية</h4>
+      <p data-ar="نلتزم بممارسات صديقة للبيئة في جميع مشاريعنا لدعم التنمية المستدامة وحماية البيئة." data-en="We commit to eco-friendly practices in all our projects to support sustainable development and environmental protection.">
+        نلتزم بممارسات صديقة للبيئة في جميع مشاريعنا لدعم التنمية المستدامة وحماية البيئة.
+      </p>
+    </div>
+    <div class="feature-item" data-aos="zoom-in" data-aos-delay="400">
+      <i class="fas fa-handshake fa-3x"></i>
+      <h4 data-ar="الشراكات الاستراتيجية" data-en="Strategic Partnerships">الشراكات الاستراتيجية</h4>
+      <p data-ar="نبني علاقات قوية مع شركاء عالميين ومحليين لتقديم خدمات متكاملة تتجاوز التوقعات." data-en="We build strong relationships with global and local partners to deliver integrated services that exceed expectations.">
+        نبني علاقات قوية مع شركاء عالميين ومحليين لتقديم خدمات متكاملة تتجاوز التوقعات.
+      </p>
+    </div>
+  </div>
+</section>  
+
+
+<section class="team-section" id="team" data-aos="fade-up" data-aos-duration="800">
+  <h2 data-ar="فريق العمل" data-en="Our Team">فريق العمل</h2>
+  <div class="team-grid">
+    <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+      <i class="fas fa-briefcase fa-3x"></i>
+      <h4 data-ar="خبراء متخصصون" data-en="Specialized Experts">خبراء متخصصون</h4>
+      <p data-ar="يضم فريقنا نخبة من الخبراء في مجالات متعددة، يعملون بتفانٍ لتحقيق أهداف العملاء." data-en="Our team includes a group of experts in various fields, working diligently to achieve client goals.">
+        يضم فريقنا نخبة من الخبراء في مجالات متعددة، يعملون بتفانٍ لتحقيق أهداف العملاء.
+      </p>
+    </div>
+    <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+      <i class="fas fa-lightbulb fa-3x"></i>
+      <h4 data-ar="إبداع وابتكار" data-en="Creativity & Innovation">إبداع وابتكار</h4>
+      <p data-ar="نعتمد على التفكير الإبداعي لتقديم حلول مبتكرة تلبي الاحتياجات المتنوعة للسوق." data-en="We rely on creative thinking to provide innovative solutions that meet diverse market needs.">
+        نعتمد على التفكير الإبداعي لتقديم حلول مبتكرة تلبي الاحتياجات المتنوعة للسوق.
+      </p>
+    </div>
+    <div class="team-member" data-aos="fade-up" data-aos-delay="300">
+      <i class="fas fa-users-cog fa-3x"></i>
+      <h4 data-ar="عمل جماعي منسق" data-en="Coordinated Teamwork">عمل جماعي منسق</h4>
+      <p data-ar="يعمل فريقنا بتناغم وتنسيق عالٍ لضمان تنفيذ المشاريع بكفاءة وسرعة." data-en="Our team works in harmony and coordination to ensure efficient and swift project execution.">
+        يعمل فريقنا بتناغم وتنسيق عالٍ لضمان تنفيذ المشاريع بكفاءة وسرعة.
+      </p>
+    </div>
+  </div>
+</section>  
+
+    <!-- Success Partners Section -->
+    <section class="success-partners-section" id="success-partners" data-aos="fade-up" data-aos-duration="800">
+      <div class="success-partners-title-container">
+        <h2 class="success-partners-title" data-ar="شركاء النجاح" data-en="Success Partners">شركاء النجاح</h2>
+      </div>
+      <div class="success-partners-wrapper">
+        <span class="scroll-arrow left" onclick="scrollPartners('left')"><i class="fas fa-chevron-left"></i></span>
+        <div class="success-partners-container">
+          <div class="partner-item">
+            <img src="imgg/pr1.jpeg" alt="شريك 1" class="partner-logo">
+          </div>
+          <div class="partner-item">
+            <img src="imgg/pr2.jpeg" alt="شريك 2" class="partner-logo">
+          </div>
+          <div class="partner-item">
+            <img src="imgg/pr3.jpeg" alt="شريك 3" class="partner-logo">
+          </div>
+          <div class="partner-item">
+            <img src="imgg/pr4.jpeg" alt="شريك 4" class="partner-logo">
+          </div>
+          <div class="partner-item">
+            <img src="imgg/pr5.jpeg" alt="شريك 5" class="partner-logo">
+          </div>
+          <div class="partner-item">
+            <img src="imgg/pr6.jpeg" alt="شريك 6" class="partner-logo">
+          </div>
+          <div class="partner-item">
+            <img src="imgg/pr7.jpeg" alt="شريك 7" class="partner-logo">
+          </div>
+          <div class="partner-item">
+            <img src="imgg/pr8.jpeg" alt="شريك 8" class="partner-logo">
+          </div>
+          <div class="partner-item">
+            <img src="imgg/pr9.jpeg" alt="شريك 9" class="partner-logo">
+          </div>
+          <div class="partner-item">
+            <img src="imgg/pr5 (2).jpeg" alt="شريك 10" class="partner-logo">
+          </div>
+          <div class="partner-item">
+            <img src="imgg/pr10.jpeg" alt="شريك 11" class="partner-logo">
+          </div>
+          <div class="partner-item">
+            <img src="imgg/pr11.jpeg" alt="شريك 12" class="partner-logo">
+          </div>
+        </div>
+        <span class="scroll-arrow right" onclick="scrollPartners('right')"><i class="fas fa-chevron-right"></i></span>
+      </div>
+    </section>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <div class="footer-logo-container">
+          <img src="imgg/logoco.png" alt="WindGroup" class="footer-logo">
+          <span class="footer-logo-text" data-ar="WindGroup" data-en="WindGroup">WindGroup</span>
+        </div>
+        <p data-ar="WindGroup تقدم تجربة استثنائية في تقديم الخدمات عبر قطاعات متعددة، مع التزام بالجودة والابتكار." data-en="WindGroup delivers an exceptional experience in providing services across multiple sectors, with a commitment to quality and innovation.">WindGroup تقدم تجربة استثنائية في تقديم الخدمات عبر قطاعات متعددة، مع التزام بالجودة والابتكار.</p>
+      </div>
+      
+      <div class="footer-column">
+        <h4 data-ar="روابط سريعة" data-en="Quick Links">روابط سريعة</h4>
+        <ul class="footer-links">
+          <li><a href="#home" class="smooth-scroll"><span data-ar="الرئيسية" data-en="Home">الرئيسية</span></a></li>
+          <li><a href="Companies/Companies.html" target="_blank"><span data-ar="شركاتنا" data-en="Companies">شركاتنا</span></a></li>
+          <li><a href="Contactus/Contact.html" target="_blank"><span data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</span></a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4 data-ar="معلومات الاتصال" data-en="Contact Information">معلومات الاتصال</h4>
+        <ul class="contact-info">
+          <li><span data-ar="+201200042288" data-en="+201200042288">+201200042288</span></li>
+          <li><span data-ar="info@windgroupeg.com" data-en="info@windgroupeg.com">info@windgroupeg.com</span></li>
+          <li><span data-ar="0224796317" data-en="0224796317">0224796317</span></li>
+          <li>
+            <a href="https://maps.app.goo.gl/gak9BUmAzz614fqa6" target="_blank" class="map-link">
+              <i class="fas fa-map-marker-alt"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p data-ar="© 2025 WindGroup. جميع الحقوق محفوظة" data-en="© 2025 WindGroup. All Rights Reserved">© 2025 WindGroup. جميع الحقوق محفوظة</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- AOS Library -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
